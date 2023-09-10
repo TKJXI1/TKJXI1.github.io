@@ -1,0 +1,83 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+.table {
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+			border-collapse: collapse;
+			width: 100%;
+			max-width: 600px;
+			margin: 0 auto;
+		}
+
+		th, td {
+			align-items: center;
+			justify-content: center;
+			justify-items: center;
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #000000;
+            text-align: center;
+			color: #ffffff;
+		}
+
+		tr:nth-child(even) {
+			align-items: center;
+			justify-content: center;
+			justify-items: center;
+			background-color: #f2f2f2;
+		}
+
+		/* Membuat tampilan kolom pada layar kecil */
+		@media screen and (max-width: 600px) {
+			table, thead, tbody, th, td, tr {
+				display: block;
+				align-items: center;
+				justify-content: center;
+				justify-items: center;
+			}
+
+			th {
+				text-align: center;
+				align-items: center;
+				justify-content: center;
+				justify-items: center;
+			}
+
+			tr {
+				
+				margin-bottom: 10px;
+				border: none;
+			}
+
+			td {
+				border-bottom: 1px solid #ffffff;
+				position: relative;
+				padding-left: 50%;
+			}
+
+			td::before {
+				position: absolute;
+				top: 6px;
+				left: 6px;
+				width: 45%;
+				padding-right: 10px;
+				white-space: nowrap;
+				content: attr(data-label);
+				font-weight: bold;
+			}
+		}
+		   
+		.td1 {
+			color: #000000;
+		}
+
+
