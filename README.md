@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>DUNIA VIRTUAL XTKJ2</title>
@@ -6,7 +7,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="jad.css">
+    <link rel="stylesheet" href="jadwal.css">
     <link rel="stylesheet" href="prof.css">
     <style>
     body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
