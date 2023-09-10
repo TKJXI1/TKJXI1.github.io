@@ -14,7 +14,7 @@
 			justify-items: center;
 			padding: 8px;
 			text-align: left;
-			border-bottom: 1px solid #000000;
+			border-bottom: 1px solid #00ffdd;
             text-align: center;
 			color: #ffffff;
 		}
@@ -23,7 +23,7 @@
 			align-items: center;
 			justify-content: center;
 			justify-items: center;
-			background-color: #f2f2f2;
+			background-color: #00ffdd;
 		}
 
 		/* Membuat tampilan kolom pada layar kecil */
@@ -69,5 +69,8 @@
 		.td1 {
 			color: #000000;
 		}
+
+
+
 
 
