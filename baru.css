@@ -40,9 +40,10 @@ body {
 
 .navbar .navbar-logo {
   padding-left: -5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   color: white;
+margin: 0rem 16px;
 }
 
 .navbar .navbar-logo span {
@@ -72,8 +73,8 @@ h1 span {
 .navbar .navbar-nav a {
   color: white;
   display: inline-block;
-  font-size: 1.1rem;
-  margin: 0 17px;
+  font-size: 1rem;
+  margin: 0 14px;
 }
 
 .navbar .navbar-nav a:hover {
