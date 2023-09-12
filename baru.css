@@ -94,7 +94,7 @@ h1 span {
 }
 
 .navbar .navbar-extra a {
-  color: #fff;
+  color: #ff0000;
 }
 
 .navbar .navbar-extra a:hover {
@@ -237,7 +237,7 @@ footer .credit a {
   body {
     font-family: "poppins, sans-serif";
     background-color: rgb(255, 255, 255);
-    color: var(--bg);
+    color: #000000;
   }
   
   /* navbar first */
@@ -246,21 +246,20 @@ footer .credit a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.3 7%;
+    padding: 1.3rem 10%;
     background-color: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid #513c28;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99999;
+    z-index: 999999;
   }
   
   .navbar .navbar-logo {
-    margin-left: -4rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   .navbar .navbar-logo span {
@@ -270,12 +269,16 @@ footer .credit a {
   .about h2 span {
     color: var(--primary);
   }
-  
+
+  .contact h2 span {
+    color: var(--primary);
+  }
+
   .navbar .navbar-nav a {
     color: white;
     display: inline-block;
-    font-size: 1.5rem;
-    margin-left: -5 16pxrem;
+    font-size: 1.2rem;
+    margin-left: 0rem 16px;
   }
   
   .navbar .navbar-nav a:hover {
@@ -309,16 +312,14 @@ footer .credit a {
   
   .hero .content h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 700;
     padding-top: 5rem;
     justify-content: center;
-    padding-left: 3rem;
   }
   
   .hero .content .content-img {
-    margin-top: -2rem;
-    padding-left: 3rem;
+    margin-top: -4rem;
     width: 80%;
     display: block;
     margin-left: auto;
@@ -328,8 +329,7 @@ footer .credit a {
   }
   
   .about h2 {
-    padding-left: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
   text-align: center;
     font-weight: 500;
     padding-top: 4rem;
@@ -340,14 +340,12 @@ footer .credit a {
   align-items: center;
     margin-left: auto;
     margin-right: auto;
-  width: 590px;
+  width: 50vh;
     font-size: 1.2rem;
     padding-top: 3rem;
-    padding-left: 3rem;
   }
   
   .about .row .about-img img {
-    padding-left: 2rem;
     width: 90%;
     display: block;
     margin-left: auto;
@@ -360,7 +358,6 @@ padding-top: 3rem;
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding-left: 1.5rem;
   }
   
   .table-div .table{
@@ -389,11 +386,6 @@ padding-top: 3rem;
     font-weight: 700;
     padding-top: 2rem;
     min-height: 25vh;
-    padding-left: 3rem;
-  }
-
-  .grid{
-    padding-left: 1rem;
   }
 
   /*footer*/
@@ -426,6 +418,7 @@ padding-top: 3rem;
   footer .links a {
     color: #fff;
     padding: 0.7rem 1.2rem;
+    font-size: 1.2rem;
   }
   
   footer .credit {
@@ -443,5 +436,4 @@ padding-top: 3rem;
       font-weight: 500;
       padding-top: 3rem;
   }
-
 }
