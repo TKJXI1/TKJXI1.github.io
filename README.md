@@ -20,7 +20,6 @@
         <a href="#jadwal">Jadwal</a>
         <a href="#contact">Kontak</a>
       </div>
-      <a href=""><i data-feather=""></i></a>
     </navbar>
 
     <section class="hero" id="home">
@@ -31,7 +30,7 @@
     </section>
 
         <!--about section start-->
-  <section id="about" class="about">
+        <section id="about" class="about">
             <h2><span>Tentang </span>kami</h2>
           <div class="row">
             <div class="about-img">
@@ -41,7 +40,7 @@
           </section>
 
         <!--about section start-->
-  <section id="jadwal" class="about">
+        <section id="jadwal" class="about">
           <h2>jadwal <span>Pelajaran</span></h2>
 
 <div class="table-div">
@@ -320,9 +319,9 @@
     <h2>Dokum<span>entasi</span></h2>
   </div>
     <hr style="width:200px" class="w3-opacity">
-
+<div class="bh">
     <!-- Grid for photos -->
-<div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
         <img src="XTKJ266.jpg" style="width:100%">
         <img src="kb.JPG" style="width:100%">
@@ -330,7 +329,7 @@
         <img src="TKJ2 (3).jpg" style="width:100%">
       </div>
 
-  <div class="w3-half">
+      <div class="w3-half">
         <img src="TKJ2 (6).jpg" style="width:100%">
         <img src="ll.jpg" style="width:100%">
         <img src="TKJ2 (1).jpg" style="width:100%">
@@ -342,45 +341,46 @@
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
+</div>
   </div>
 </div>
         <section id="contact" class="contact">
             <h2><span>Kontak</span> kami</h2>
             
-  <div class="co">
+     <div class="co">
       <p><i data-feather="map-pin"></i> Jalan Neglasari No. 07</p>
       <p><i data-feather="phone"></i> Phone: 085798376030</p>
       <p><i data-feather="mail"></i> Email: mrdono260726@gmail.com</p>
     </div><br>
           </section>
 
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+          <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
             <div class="socials">
               <a href="https://instagram.com/elevenone14?igshid=NzZhOTFlYzFmZQ==" id="search"><i data-feather="instagram"></i></a>
               <a href="https://instagram.com/elevenone14?igshid=NzZhOTFlYzFmZQ==" id="search"><i data-feather="facebook"></i></a>
               <a href="https://instagram.com/elevenone14?igshid=NzZhOTFlYzFmZQ==" id="search"><i data-feather="twitter"></i></a>
             </div>
       
-  <div class="links">
+            <div class="links">
               <a href="#home">Home</a>
               <a href="#about">Tentang Kami</a>
               <a href="#menu">Menu</a>
               <a href="#contact">Kontak</a>
             </div>
       
-  <div class="credit">
+            <div class="credit">
               <p>Created by <a href="">muhamadirfan</a>. | &copy; 2023.</p>
             </div>
           </footer>
       
-    <!--footer end-->
+          <!--footer end-->
 
         <!--feather icons-->
-  <script>
+        <script>
             feather.replace();
           </script>
       
           <!--my javascript-->
-   <script src="L-COMPANY.js"></script>
+          <script src="L-COMPANY.js"></script>
   </body>
 </html>
