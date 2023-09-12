@@ -257,7 +257,7 @@ z-index: 99999999999;
   }
   
   .navbar .navbar-logo {
-margin-left: 2rem;
+margin-left: 3rem;
     font-size: 1rem;
     font-weight: 500;
     color: rgb(255, 255, 255);
@@ -280,6 +280,7 @@ margin-left: 2rem;
     display: inline-block;
     font-size: 1rem;
     margin-left: 0rem 16px;
+	  margin-right: -2rem;
   }
   
   .navbar .navbar-nav a:hover {
@@ -320,7 +321,7 @@ margin-left: 2rem;
   }
   
   .hero .content .content-img {
-    margin-top: -4rem;
+    margin-top: 10rem;
     width: 80%;
     display: block;
     margin-left: auto;
@@ -351,7 +352,7 @@ margin-left: 2rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-padding-top: 10rem;
+padding-top: 5rem;
   }
   
   .table-div{
