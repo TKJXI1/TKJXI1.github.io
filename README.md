@@ -312,7 +312,7 @@
           </tr>
           </table>
           </div>
-
+</section>
         <!-- Portfolio Section -->
   <div class="grid">
   <div class="w3-padding-64 w3-content" id="photos">
@@ -353,7 +353,7 @@
       <p><i data-feather="phone"></i> Phone: 085798376030</p>
       <p><i data-feather="mail"></i> Email: mrdono260726@gmail.com</p>
     </div><br>
-
+</section>
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
             <div class="socials">
               <a href="https://instagram.com/elevenone14?igshid=NzZhOTFlYzFmZQ==" id="search"><i data-feather="instagram"></i></a>
