@@ -37,7 +37,7 @@
               <img src="XTKJ266.jpg" alt="Tentang kami" />
             </div>
             <p class="about-p">Hallo selamat datang di dunia virtual kelas <STrong> XI TKJ 1</STrong>. Tujuan kami membuat web ini adalah untuk mengabadikan kenangan yang terjadi selama masa sekolah. Terima kasih sudah berkunjung.</p>
-          </section>
+      
 
         <!--about section start-->
   <section id="jadwal" class="about">
@@ -310,8 +310,8 @@
           </tr>
           </table>
           </div>
-        
-  <!-- Portfolio Section -->
+    
+        <!-- Portfolio Section -->
   <div class="grid">
   <div class="w3-padding-64 w3-content" id="photos">
     <div class="hjg">
@@ -351,7 +351,7 @@
       <p><i data-feather="phone"></i> Phone: 085798376030</p>
       <p><i data-feather="mail"></i> Email: mrdono260726@gmail.com</p>
     </div><br>
-        </section>
+      
 
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
             <div class="socials">
