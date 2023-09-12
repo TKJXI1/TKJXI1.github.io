@@ -228,7 +228,7 @@ footer .credit a {
 }
 
 /* Styling untuk perangkat mobile dengan lebar layar kurang dari 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   /* Tambahkan gaya khusus untuk breakpoint ini */
   html {
     scroll-behavior: smooth;
