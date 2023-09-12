@@ -39,7 +39,7 @@ body {
 }
 
 .navbar .navbar-logo {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
   color: white;
 }
@@ -71,7 +71,7 @@ h1 span {
 .navbar .navbar-nav a {
   color: white;
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 3rem;
   margin: 0 16px;
 }
 
