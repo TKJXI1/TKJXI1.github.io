@@ -23,15 +23,15 @@
       <a href=""><i data-feather=""></i></a>
     </navbar>
 
-    <section class="hero" id="home">
+<section class="hero" id="home">
 <main class="content">
     <h1><span>XI T</span>KJ 1</h1>
 <img src="logoxi.jpeg" alt="" class="content-img">
 </main>
     </section>
 
-        <!--about section start-->
-        <section id="about" class="about">
+<!--about section start-->
+<section id="about" class="about">
             <h2><span>Tentang </span>kami</h2>
           <div class="row">
             <div class="about-img">
@@ -40,11 +40,11 @@
             <p class="about-p">Hallo selamat datang di dunia virtual kelas <STrong> XI TKJ 1</STrong>. Tujuan kami membuat web ini adalah untuk mengabadikan kenangan yang terjadi selama masa sekolah. Terima kasih sudah berkunjung.</p>
           </section>
 
-        <!--about section start-->
-        <section id="jadwal" class="about">
+  <!--about section start-->
+  <section id="jadwal" class="about">
           <h2>jadwal <span>Pelajaran</span></h2>
 
-            <div class="table-div">
+  <div class="table-div">
 <table border="1px" class="table">
 <tr>
   <th colspan="3">Senin</th>
@@ -203,7 +203,7 @@
     </table>
   </div>
 
-    <div class="table-div">
+  <div class="table-div">
       <table border="1px" class="table">
       <tr>
         <th colspan="3">Kamis</th>
@@ -241,7 +241,7 @@
       </table>
       </div>
 
-      <div class="table-div">
+  <div class="table-div">
         <table border="1px" class="table">
         <tr>
           <th colspan="3">Jum'at</th>
@@ -279,7 +279,7 @@
         </table>
       </div>
 
-        <div class="table-div">
+  <div class="table-div">
           <table border="1px" class="table">
           <tr>
             <th colspan="4">Sabtu</th>
@@ -322,7 +322,7 @@
     <hr style="width:200px" class="w3-opacity">
 
     <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
+  <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
         <img src="XTKJ266.jpg" style="width:100%">
         <img src="kb.JPG" style="width:100%">
@@ -330,7 +330,7 @@
         <img src="TKJ2 (3).jpg" style="width:100%">
       </div>
 
-      <div class="w3-half">
+  <div class="w3-half">
         <img src="TKJ2 (6).jpg" style="width:100%">
         <img src="ll.jpg" style="width:100%">
         <img src="TKJ2 (1).jpg" style="width:100%">
@@ -344,12 +344,11 @@
   <!-- End Portfolio Section -->
   </div>
 </div>
-        </section>
 
-        <section id="contact" class="contact">
+  <section id="contact" class="contact">
             <h2><span>Kontak</span> kami</h2>
             
-     <div class="co">
+   <div class="co">
       <p><i data-feather="map-pin"></i> Jalan Neglasari No. 07</p>
       <p><i data-feather="phone"></i> Phone: 085798376030</p>
       <p><i data-feather="mail"></i> Email: mrdono260726@gmail.com</p>
@@ -357,21 +356,21 @@
   </div>
           </section>
 
-          <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
             <div class="socials">
               <a href="https://instagram.com/elevenone14?igshid=NzZhOTFlYzFmZQ==" id="search"><i data-feather="instagram"></i></a>
               <a href="https://instagram.com/elevenone14?igshid=NzZhOTFlYzFmZQ==" id="search"><i data-feather="facebook"></i></a>
               <a href="https://instagram.com/elevenone14?igshid=NzZhOTFlYzFmZQ==" id="search"><i data-feather="twitter"></i></a>
             </div>
       
-            <div class="links">
+  <div class="links">
               <a href="#home">Home</a>
               <a href="#about">Tentang Kami</a>
               <a href="#menu">Menu</a>
               <a href="#contact">Kontak</a>
             </div>
       
-            <div class="credit">
+  <div class="credit">
               <p>Created by <a href="">muhamadirfan</a>. | &copy; 2023.</p>
             </div>
           </footer>
@@ -379,11 +378,11 @@
           <!--footer end-->
 
         <!--feather icons-->
-        <script>
+  <script>
             feather.replace();
           </script>
       
           <!--my javascript-->
-          <script src="L-COMPANY.js"></script>
+  <script src="L-COMPANY.js"></script>
   </body>
 </html>
