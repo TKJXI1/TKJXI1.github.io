@@ -182,7 +182,7 @@
       <td>-</td>
     </tr>
     <tr>
-      <td>pjok</td>
+      <td>PJOK</td>
       <td>10.15 - 11.25</td>
       <td>Pak Sulung</td>
     </tr>
@@ -364,7 +364,7 @@
   <div class="links">
               <a href="#home">Home</a>
               <a href="#about">Tentang Kami</a>
-              <a href="#menu">Menu</a>
+              <a href="#jadwal">Jadwal</a>
               <a href="#contact">Kontak</a>
             </div>
       
