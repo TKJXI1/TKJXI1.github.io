@@ -261,6 +261,7 @@ margin-left: -1rem;
     font-size: 1rem;
     font-weight: 500;
     color: rgb(255, 255, 255);
+	      margin-left: 0rem 16px;
   }
   
   .navbar .navbar-logo span {
@@ -278,8 +279,8 @@ margin-left: -1rem;
   .navbar .navbar-nav a {
     color: white;
     display: inline-block;
-    font-size: 1rem;
-    margin-left: 0rem 16px;
+    font-size: 0.8rem;
+    margin-left: 0rem 10px;
  }
   
   .navbar .navbar-nav a:hover {
