@@ -406,6 +406,7 @@ padding-top: 5rem;
   footer .socials a {
     color: #fff;
     margin: 1rem;
+    padding-top: -2rem;
   }
   
   footer .socials a:hover,
