@@ -363,9 +363,9 @@
           
   <div class="links">
               <a href="#home"><i data-feather="home"></i></a>
-              <a href="#about">Tentang Kami</a>
-              <a href="#jadwal">Jadwal</a>
-              <a href="#contact">Kontak</a>
+              <a href="#about"><i class="fi fi-sr-info"></i></a>
+              <a href="#jadwal"><i data-feather="book-open"></i></a>
+              <a href="#contact"><i data-feather="phone"></i></a>
             </div>
       
    <div class="credit">
