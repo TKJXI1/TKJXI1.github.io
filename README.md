@@ -362,7 +362,7 @@
             </div>
           
   <div class="links">
-              <a href="#home">Home</a>
+              <a href="#home"><i data-feather="home"></i></a>
               <a href="#about">Tentang Kami</a>
               <a href="#jadwal">Jadwal</a>
               <a href="#contact">Kontak</a>
