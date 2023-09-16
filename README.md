@@ -25,7 +25,7 @@
  <section class="hero" id="home">
 <div class="content">
     <h1><span>XI T</span>KJ 1</h1>
-<img src="logoxi.jpeg" alt="" class="content-img">
+<img src="IMG_20230914_200212_20230916_154140_0000" alt="" class="content-img">
 </div>
     </section>
 
