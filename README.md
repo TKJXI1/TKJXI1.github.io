@@ -335,9 +335,6 @@
         <img src="IMG_20230914_091521" style="width:100%">
         <img src="IMG_20230912_120829" style="width:100%">
         <a class="w3-button w3-round-xxlarge w3-small w3-light-blue sky" href="Dokumentasi X TKJ 2.html" target="_blank">LAINNYA</a>
-        <div class="comm">
-        <h1 class="com"><span>Coming Soon</span></h1>
-      </div>
       </div>
     <!-- End photo grid -->
     </div>
