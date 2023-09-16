@@ -324,16 +324,16 @@
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
-        <img src="XTKJ266.jpg" style="width:100%">
-        <img src="kb.JPG" style="width:100%">
-        <img src="bsbs.jpg" style="width:100%">
-        <img src="TKJ2 (3).jpg" style="width:100%">
+        <img src="IMG_20230914_200212_20230916_154140_0000" style="width:100%">
+        <img src="IMG_20230914_091549" style="width:100%">
+        <img src="IMG-20230915-WA0044" style="width:100%">
+        <img src="IMG_20230914_091648" style="width:100%">
       </div>
 
   <div class="w3-half">
-        <img src="TKJ2 (6).jpg" style="width:100%">
-        <img src="ll.jpg" style="width:100%">
-        <img src="TKJ2 (1).jpg" style="width:100%">
+        <img src="IMG_20230914_200212_20230916_154151_0000" style="width:100%">
+        <img src="IMG_20230914_091521" style="width:100%">
+        <img src="IMG_20230912_120829" style="width:100%">
         <a class="w3-button w3-round-xxlarge w3-small w3-light-blue sky" href="Dokumentasi X TKJ 2.html" target="_blank">LAINNYA</a>
         <div class="comm">
         <h1 class="com"><span>Coming Soon</span></h1>
@@ -369,7 +369,7 @@
             </div>
       
    <div class="credit">
-              <p>Created by <a href="">muhamadirfan</a>. | &copy; 2023.</p>
+              <p>Created by <a href="#home">Sayapkebebasan</a>. | &copy; 2023.</p>
             </div>
           </footer>
       
