@@ -324,16 +324,16 @@
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
-        <img src="IMG_20230914_200212_20230916_154140_0000" style="width:100%">
-        <img src="IMG_20230914_091549" style="width:100%">
-        <img src="IMG-20230915-WA0044" style="width:100%">
-        <img src="IMG_20230914_091648" style="width:100%">
+        <img src="IMG_20230914_200212_20230916_154140_0000.jpg" style="width:100%">
+        <img src="IMG_20230914_091549.jpg" style="width:100%">
+        <img src="IMG-20230915-WA0044.jpg" style="width:100%">
+        <img src="IMG_20230914_091648.jpg" style="width:100%">
       </div>
 
   <div class="w3-half">
-        <img src="IMG_20230914_200212_20230916_154151_0000" style="width:100%">
-        <img src="IMG_20230914_091521" style="width:100%">
-        <img src="IMG_20230912_120829" style="width:100%">
+        <img src="IMG_20230914_200212_20230916_154151_0000.jpg" style="width:100%">
+        <img src="IMG_20230914_091521.jpg" style="width:100%">
+        <img src="IMG_20230912_120829.jpg" style="width:100%">
         <a class="w3-button w3-round-xxlarge w3-small w3-light-blue sky" href="Dokumentasi X TKJ 2.html" target="_blank">LAINNYA</a>
       </div>
     <!-- End photo grid -->
