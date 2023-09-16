@@ -25,7 +25,7 @@
  <section class="hero" id="home">
 <div class="content">
     <h1><span>XI T</span>KJ 1</h1>
-<img src="IMG_20230914_200212_20230916_154140_0000" alt="" class="content-img">
+<img src="logoxi" alt="" class="content-img">
 </div>
     </section>
 
@@ -34,7 +34,7 @@
             <h2><span>Tentang </span>kami</h2>
           <div class="row">
             <div class="about-img">
-              <img src="XTKJ266.jpg" alt="Tentang kami" />
+              <img src="IMG_20230914_200212_20230916_154140_0000.jpg" alt="Tentang kami" />
             </div>
             <p class="about-p">Hallo selamat datang di dunia virtual kelas <STrong> XI TKJ 1</STrong>. Tujuan kami membuat web ini adalah untuk mengabadikan kenangan yang terjadi selama masa sekolah. Terima kasih sudah berkunjung.</p>
           </div>
