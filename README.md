@@ -15,11 +15,11 @@
     <navbar class="navbar">
       <a href="#" class="navbar-logo">XI T<span>KJ 1</span></a>
       <div class="navbar-nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#jadwal">Jadwal</a>
-        <a href="#galeri">Galeri</a>
-        <a href="#contact">Kontak</a>
+        <a href="#home"><i data-feather="home"></i></a>
+        <a href="#about"><i data-feather="info"></i></a>
+        <a href="#jadwal"><i data-feather="book-open"></i></a>
+        <a href="#galeri"><i data-feather="image"></i></a>
+        <a href="#contact"><i data-feather="phone"></i></a>
       </div>
     </navbar>
 
@@ -363,6 +363,7 @@
               <a href="#home"><i data-feather="home"></i></a>
               <a href="#about"><i data-feather="info"></i></a>
               <a href="#jadwal"><i data-feather="book-open"></i></a>
+    <a href="#galeri"><i data-feather="image"></i></a>
               <a href="#contact"><i data-feather="phone"></i></a>
             </div>
       
