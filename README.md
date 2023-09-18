@@ -315,9 +315,9 @@
           </div>
 </section>
         <!-- Portfolio Section -->
-  <div class="grid" id="#galeri>
-  <div class="w3-padding-64 w3-content" id="photos">
-    <div class="hjg">
+  <div class="grid" id="#galeri">
+  <div class="w3-padding-64 w3-content" id="#galeri">
+    <div class="hjg" id="#galeri">
     <h2>Gal<span>leri</span></h2>
   </div>
     <hr style="width:200px" class="w3-opacity">
