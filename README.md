@@ -18,7 +18,7 @@
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#jadwal">Jadwal</a>
-        <a thread="#galeri">Galeri</a>
+        <a href="#galeri">Galeri</a>
         <a href="#contact">Kontak</a>
       </div>
     </navbar>
