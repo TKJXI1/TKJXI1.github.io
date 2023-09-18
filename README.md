@@ -22,7 +22,7 @@
       </div>
     </navbar>
 
- <section class="hero" id="home">
+ <section class="hero" id="#home">
 <div class="content">
     <h1><span>XI T</span>KJ 1</h1>
 <img src="logoxi.jpeg" alt="" class="content-img" />
@@ -30,7 +30,7 @@
     </section>
 
         <!--about section start-->
-  <section id="about" class="about">
+  <section id="#about" class="about">
             <h2><span>Tentang </span>kami</h2>
           <div class="row">
             <div class="about-img">
@@ -42,7 +42,7 @@
   
 
         <!--about section start-->
-  <section id="jadwal" class="about">
+  <section id="#jadwal" class="about">
           <h2>jadwal <span>Pelajaran</span></h2>
 
 <div class="table-div">
@@ -342,7 +342,7 @@
 </div>
   </div>
 </div>
-        <section id="contact" class="contact">
+        <section id="#contact" class="contact">
             <h2><span>Kontak</span> kami</h2>
             
   <div class="co">
