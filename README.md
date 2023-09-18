@@ -18,6 +18,7 @@
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#jadwal">Jadwal</a>
+        <a thread="#galeri">Galeri</a>
         <a href="#contact">Kontak</a>
       </div>
     </navbar>
@@ -314,7 +315,7 @@
           </div>
 </section>
         <!-- Portfolio Section -->
-  <div class="grid">
+  <div class="grid" id="#galeri>
   <div class="w3-padding-64 w3-content" id="photos">
     <div class="hjg">
     <h2>Dokum<span>entasi</span></h2>
