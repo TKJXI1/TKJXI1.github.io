@@ -318,7 +318,7 @@
   <div class="grid" id="#galeri>
   <div class="w3-padding-64 w3-content" id="photos">
     <div class="hjg">
-    <h2>Dokum<span>entasi</span></h2>
+    <h2>Gal<span>leri</span></h2>
   </div>
     <hr style="width:200px" class="w3-opacity">
 <div class="bh">
