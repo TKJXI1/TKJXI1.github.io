@@ -351,7 +351,7 @@
           <img src="IMG_20230914_091648.jpg" style="width:100%">
         </div>
   
-    <div class="w3-half">
+  <div class="w3-half">
           <img src="IMG_20230914_200212_20230916_154151_0000.jpg" style="width:100%">
           <img src="IMG_20230914_091521.jpg" style="width:100%">
           <img src="IMG_20230912_120829.jpg" style="width:100%">
@@ -361,9 +361,8 @@
       </div>
     <!-- End Portfolio Section -->
   </div>
-    </div>
-  </div>
-          <section id="Contact" class="contact">
+        
+<section id="Contact" class="contact">
               <h2><span>Kontak</span> kami</h2>
               
     <div class="co">
