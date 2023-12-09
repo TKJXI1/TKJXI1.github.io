@@ -1,25 +1,318 @@
 :root {
-    --primary: #0dd7de;
-    --bg: black;
-  }
-  
-  * {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    text-decoration: none;
-  }
-  
+  --primary: #0dd7de;
+  --bg: black;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins, sans-serif";
+  background-color: rgb(255, 255, 255);
+  color: var(--bg);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 7%;
+  background-color: rgba(1, 1, 1, 0.8);
+  border-bottom: 1px solid #513c28;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+}
+
+.navbar .navbar-logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: white;
+}
+
+.navbar .navbar-logo span {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav a {
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 16px;
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.6);
+}
+
+.navbar .navbar-extra a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+  color: var(--primary);
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.hero .content h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 5rem;
+  min-height: 25vh;
+}
+
+.hero .content .content-img {
+  padding-top: 1rem;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.about h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 5rem;
+}
+
+.about h2 span {
+  color: var(--primary);
+}
+
+.hjg h2 span {
+  color: var(--primary);
+}
+
+.hjg h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 5rem;
+  min-height: 25vh;
+}
+
+h1 span {
+  color: var(--primary);
+}
+
+.contact h2 span {
+  color: var(--primary);
+}
+
+.about-p {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+
+.about .row .about-img img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    text-align: center;
+
+}
+
+header span{
+    color: var(--primary);
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    max-width: 150px;
+    text-align: center;
+
+    
+}
+
+.products .product .text{
+  font-size: 1rem;
+  padding-left: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+.product .img1 {
+    max-width: 50%;
+}
+
+.product img {
+    max-width: 50%;
+}
+
+.product .img2 {
+    max-width: 50%;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding: 10px 20px;
+    max-width: 100px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding: 10px 20px;
+    max-width: 100px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b6895b;
+    color: #000;
+}
+
+.table-div {
+  padding-top: 5vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.table-div .table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 20rem;
+}
+
+.contact a {
+  padding-top: -5rem;
+  display: list-item;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.co {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 3rem;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 5rem;
+}
+
+/*footer*/
+
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: var(--bg);
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 700;
+}
+
+/*laptop*/
+@media (max-width: 1366px) {
   html {
-    scroll-behavior: smooth;
+    font-size: 75%;
   }
-  
-  body {
-    font-family: "poppins, sans-serif";
-    background-color: rgb(255, 255, 255);
-    color: var(--bg);
+}
+/*tablet*/
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  #hamburger-menu {
+    display: inline-block;
   }
 
   .navbar {
@@ -35,52 +328,35 @@
     right: 0;
     z-index: 999999;
   }
-  
-  .navbar .navbar-logo {
-    font-size: 1.7rem;
-    font-weight: 700;
-    color: white;
+
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: black;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
   }
 
-  .navbar .navbar-logo span {
-    color: var(--primary);
+  .navbar .navbar-nav.active {
+    right: 0;
   }
 
   .navbar .navbar-nav a {
-    color: white;
-    display: inline-block;
-    font-size: 1rem;
-    margin: 0 16px;
-  }
-
-  .navbar .navbar-nav a:hover {
     color: var(--primary);
-  }
-
-  .navbar .navbar-nav a::after {
-    content: '';
     display: block;
-    padding-bottom: 0.1rem;
-    border-bottom: 0.1rem solid var(--primary);
-    transform: scaleX(0);
-    transition: 0.2s linear;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
   }
 
   .navbar .navbar-nav a:hover::after {
-    transform: scaleX(0.6);
+    transform: scaleX(0.2);
   }
 
-  .navbar .navbar-extra a {
-    color: #fff;
-    margin: 0 0.5rem;
-  }
-
-  .navbar .navbar-extra a:hover {
-    color: var(--primary);
-  }
-
-  #hamburger-menu {
-    display: none;
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
   }
 
   .hero .content h1 {
@@ -88,502 +364,295 @@
     font-size: 3rem;
     font-weight: 700;
     padding-top: 5rem;
-    min-height: 25vh;
+    justify-content: center;
   }
-  
+
   .hero .content .content-img {
-    padding-top: 1rem;
-    width: 20%;
+    margin-top: 5rem;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  border-bottom-left-radius: 50%;
+    border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
   }
-  
+
   .about h2 {
-    font-size: 3rem;
-  text-align: center;
-    font-weight: 500;
-    padding-top: 5rem;
-  }
-
-  .about h2 span {
-    color: var(--primary);
-  }
-  
-  .hjg h2 span {
-    color: var(--primary);
-  }
-  
-  .hjg h2{
+    font-size: 2rem;
     text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
-    padding-top: 5rem;
-    min-height: 25vh;
-  }
-  
-  h1 span {
-    color: var(--primary);
+    font-weight: 500;
+    padding-top: 4rem;
   }
 
-  .contact h2 span{
-    color: var(--primary);
-  }
-  
   .about-p {
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-  width: 600px;
+    width: 40vh;
     font-size: 1.2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
-  
+
   .about .row .about-img img {
-    width: 50%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5rem;
   }
-  
-  .table-div{
+
+  .table-div {
     padding-top: 5vh;
     align-items: center;
     text-align: center;
     justify-content: center;
   }
-  
-  .table-div .table{
-      width: 100%;
-      max-width: 600px;
-      margin: 0 auto;
+
+  .table-div .table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
     height: 20rem;
   }
-  
-  .contact a{
-    padding-top: -5rem;
-    display: list-item;
+
+  .contact a {
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  
-  .co{
+
+  .co {
     font-size: 1.5rem;
     text-align: center;
-      font-weight: 500;
-      padding-top: 3rem;
-  }
-  
-  .contact h2 {
-    font-size: 3rem;
-  text-align: center;
     font-weight: 500;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
-  
+
+  .hjg h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    min-height: 25vh;
+  }
+
   /*footer*/
-  
+
   footer {
     background-color: var(--primary);
     text-align: center;
     padding: 1rem 0 3rem;
     margin-top: 3rem;
   }
-  
+
   footer .socials {
     padding: 1rem 0;
   }
-  
+
   footer .socials a {
     color: #fff;
     margin: 1rem;
+    padding-top: -2rem;
   }
-  
+
   footer .socials a:hover,
   footer .links a:hover {
     color: var(--bg);
   }
-  
+
   footer .links {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
   }
-  
+
   footer .links a {
     color: #fff;
-    padding: 0.7rem 1.2rem;
+    padding-top: 2rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
   }
-  
+
   footer .credit {
     font-size: 0.8rem;
   }
-  
+
   footer .credit a {
     color: var(--bg);
     font-weight: 700;
-  } 
-      
+  }
 
-
-  /*laptop*/
-@media (max-width: 1366px){
-    html {
-        font-size: 75%;
-    }
+  .com {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 3rem;
+  }
 }
-  /*tablet*/
-  @media (max-width: 768px){
-    html {
-        font-size: 62.5%;
-    }
 
-    #hamburger-menu {
-        display: inline-block;
-      }
+/*mobile phone*/
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
 
-      .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1.3rem 7%;
-        background-color: rgba(1, 1, 1, 0.8);
-        border-bottom: 1px solid #513c28;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 999999;
-      }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 7%;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+  }
 
-      .navbar .navbar-nav{
-position: absolute;
-top: 100%;
-right: -100%;
-background-color: black;
-width: 30rem;
-height: 100vh;
-transition: 0.3s;
-      }
+  .navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
 
-      .navbar .navbar-nav.active{
-right: 0;
-      }
+  .hjg span {
+    color: var(--primary);
+  }
 
-      .navbar .navbar-nav a{
-        color: var(--primary);
-        display: block;
-        margin: 1.5rem;
-        padding: 0.5rem;
-        font-size: 2rem;
-      }
-
-      .navbar .navbar-nav a:hover::after{
-transform: scaleX(0.2);
-      }
-
-      .navbar .navbar-nav a::after{
-        transform-origin: 0 0;
-              }
-
-              .hero .content h1 {
-                text-align: center;
-                font-size: 3rem;
-                font-weight: 700;
-                padding-top: 5rem;
-                justify-content: center;
-              }
-              
-              .hero .content .content-img {
-                margin-top: 5rem;
-                width: 80%;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-              border-bottom-left-radius: 50%;
-                border-top-right-radius: 50%;
-              }
-              
-              .about h2 {
-                font-size: 2rem;
-              text-align: center;
-                font-weight: 500;
-                padding-top: 4rem;
-              }
-              
-              .about-p {
-              justify-content: center;
-              align-items: center;
-                margin-left: auto;
-                margin-right: auto;
-              width: 40vh;
-                font-size: 1.2rem;
-                padding-top: 3rem;
-              }
-              
-              .about .row .about-img img {
-                width: 90%;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            padding-top: 5rem;
-              }
-              
-              .table-div{
-                padding-top: 5vh;
-                align-items: center;
-                text-align: center;
-                justify-content: center;
-              }
-              
-              .table-div .table{
-                width: 100%;
-                max-width: 600px;
-                margin: 0 auto;
-                height: 20rem;
-              }
-              
-              .contact a{
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-              }
-              
-              .co{
-                font-size: 1.5rem;
-                text-align: center;
-                  font-weight: 500;
-                  padding-top: 3rem;
-              }
-              
-              .hjg h2{
-                text-align: center;
-                font-size: 3rem;
-                font-weight: 700;
-                padding-top: 2rem;
-                min-height: 25vh;
-              }
-            
-              /*footer*/
-              
-              footer {
-                background-color: var(--primary);
-                text-align: center;
-                padding: 1rem 0 3rem;
-                margin-top: 3rem;
-              }
-              
-              footer .socials {
-                padding: 1rem 0;
-              }
-              
-              footer .socials a {
-                color: #fff;
-                margin: 1rem;
-                padding-top: -2rem;
-              }
-              
-              footer .socials a:hover,
-              footer .links a:hover {
-                color: var(--bg);
-              }
-              
-              footer .links {
-                margin-bottom: 1rem;
-              }
-              
-              footer .links a {
-                color: #fff;
-                padding-top: 2rem;
-                padding: 1rem 1rem;
-                font-size: 1rem;
-              }
-              
-              footer .credit {
-                font-size: 0.8rem;
-              }
-              
-              footer .credit a {
-                color: var(--bg);
-                font-weight: 700;
-              }
-            
-              .com{
-                font-size: 3rem;
-                text-align: center;
-                  font-weight: 500;
-                  padding-top: 3rem;
-              }
-            }
-
-
-  /*mobile phone*/
-  @media (max-width: 450px){
-    html {
-        font-size: 55%;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1.3rem 7%;
-      background-color: rgba(1, 1, 1, 0.8);
-      border-bottom: 1px solid #513c28;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 999999;
-    }
-
-    .navbar .navbar-logo {
-        font-size: 2rem;
-        font-weight: 700;
-        color: white;
-        text-align: center;
-      }
-
-    .hjg span{
-color: var(--primary);
-     }
-
-    .hero .content h1 {
-        text-align: center;
-        font-size: 3rem;
-        font-weight: 700;
-        padding-top: 5rem;
-        justify-content: center;
-      }
-      
-      .hero .content .content-img {
-        margin-top: 5rem;
-        width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      border-bottom-left-radius: 50%;
-        border-top-right-radius: 50%;
-      }
-      
-      .about h2 {
-        font-size: 2rem;
-      text-align: center;
-        font-weight: 500;
-        padding-top: 4rem;
-      }
-      
-      .about-p {
-      justify-content: center;
-      align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-      width: 24vh;
-        font-size: 1.2rem;
-        padding-top: 3rem;
-      }
-      
-      .about .row .about-img img {
-        width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+  .hero .content h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
     padding-top: 5rem;
-      }
-      
-      .table-div{
-        padding-top: 5vh;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-      }
-      
-      .table-div .table{
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        height: 20rem;
-      }
-      
-      .contact a{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
+    justify-content: center;
+  }
 
-      .contact h2 {
-        font-size: 3rem;
-      text-align: center;
-        font-weight: 500;
-        padding-top: 10rem;
-      }
-      
-      .co{
-        font-size: 1.5rem;
-        text-align: center;
-          font-weight: 500;
-          padding-top: 3rem;
-      }
-      
-      .hjg h2{
-        text-align: center;
-        font-size: 3rem;
-        font-weight: 700;
-        padding-top: 2rem;
-        min-height: 25vh;
-      }
-    
-      /*footer*/
-      
-      footer {
-        background-color: var(--primary);
-        text-align: center;
-        padding: 1rem 0 3rem;
-        margin-top: 3rem;
-      }
-      
-      footer .socials {
-        padding: 1rem 0;
-      }
-      
-      footer .socials a {
-        color: #fff;
-        margin: 1rem;
-        padding-top: -2rem;
-      }
-      
-      footer .socials a:hover,
-      footer .links a:hover {
-        color: var(--bg);
-      }
-      
-      footer .links {
-        margin-bottom: 1rem;
-      }
-      
-      footer .links a {
-        color: #fff;
-        padding-top: 2rem;
-        padding: 1rem 1rem;
-        font-size: 1rem;
-      }
-      
-      footer .credit {
-        font-size: 0.8rem;
-      }
-      
-      footer .credit a {
-        color: var(--bg);
-        font-weight: 700;
-      }
-    
-      .com{
-        font-size: 3rem;
-        text-align: center;
-          font-weight: 500;
-          padding-top: 3rem;
-      }
-    }
+  .hero .content .content-img {
+    margin-top: 5rem;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
 
+  .about h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 4rem;
+  }
 
+  .about-p {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24vh;
+    font-size: 1.2rem;
+    padding-top: 3rem;
+  }
+
+  .about .row .about-img img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+  }
+
+  .table-div {
+    padding-top: 5vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .table-div .table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 20rem;
+  }
+
+  .contact a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10rem;
+  }
+
+  .co {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 3rem;
+  }
+
+  .hjg h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    min-height: 25vh;
+  }
+
+  /*footer*/
+
+  footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem 0 3rem;
+    margin-top: 3rem;
+  }
+
+  footer .socials {
+    padding: 1rem 0;
+  }
+
+  footer .socials a {
+    color: #fff;
+    margin: 1rem;
+    padding-top: -2rem;
+  }
+
+  footer .socials a:hover,
+  footer .links a:hover {
+    color: var(--bg);
+  }
+
+  footer .links {
+    margin-bottom: 1rem;
+  }
+
+  footer .links a {
+    color: #fff;
+    padding-top: 2rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+
+  footer .credit {
+    font-size: 0.8rem;
+  }
+
+  footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+  }
+
+  .com {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 3rem;
+  }
+}
