@@ -473,7 +473,7 @@
       </div>
 
       <div class="credit">
-        <p>Created by <a href="#home">Sayapkebebasan</a>. | &copy; 2023.</p>
+        <p>Created by <a href="#home">Sayap_kebebasan</a>. | &copy; 2023.</p>
       </div>
     </footer>
 
