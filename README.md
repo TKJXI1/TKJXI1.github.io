@@ -71,52 +71,52 @@
 
     <section class="products">
         <div class="product">
-            <img src="tiwi.jpeg" alt="Produk 2">
+            <img src="tiwi.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="kuya.jpeg" alt="Produk 2">
+            <img src="kuya.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="ujang.jpeg" alt="Produk 2">
+            <img src="ujang.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="aulc.jpeg" alt="Produk 2">
+            <img src="aulc.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="eka.jpeg" alt="Produk 2">
+            <img src="eka.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="rika.jpeg" alt="Produk 2">
+            <img src="rika.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="rian.jpeg" alt="Produk 2">
+            <img src="rian.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="reva.jpeg" alt="Produk 2">
+            <img src="reva.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="najwa.jpeg" alt="Produk 1" class="img1">
+            <img src="najwa.jpg" alt="Produk 1" class="img1">
             <h2>PKL</h2>
             <a href="L.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="nayla.jpeg" alt="Produk 2" class="img2">
+            <img src="nayla.jpg" alt="Produk 2" class="img2">
             <h2>PKL</h2>
             <a href="P.html"><button><p class="text">kenangan</p></button></a>
         </div>
