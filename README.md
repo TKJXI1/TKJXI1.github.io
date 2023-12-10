@@ -106,7 +106,7 @@
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="reva.jpg" alt="Produk 2">
+            <img src="reva1.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
@@ -116,7 +116,7 @@
             <a href="L.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="nayla.jpg" alt="Produk 2" class="img2">
+            <img src="nayla1.jpg" alt="Produk 2" class="img2">
             <h2>PKL</h2>
             <a href="P.html"><button><p class="text">kenangan</p></button></a>
         </div>
