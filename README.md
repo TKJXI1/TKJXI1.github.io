@@ -145,7 +145,6 @@
             <h2>PKL</h2>
             <a href="P.html"><button><p class="text">kenangan</p></button></a>
         </div>
-
         <div class="product">
             <img src="nurman.jpg" alt="Produk 2" class="img2">
             <h2>PKL</h2>
@@ -161,8 +160,6 @@
             <h2>PKL</h2>
             <a href="P.html"><button><p class="text">kenangan</p></button></a>
         </div>
-
-
     </section>
 
     <!--about section start-->
