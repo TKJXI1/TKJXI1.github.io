@@ -131,7 +131,7 @@
             <a href="P.html"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="fahri.jpg" alt="Produk 2" class="img2">
+            <img src="Fahri.jpg" alt="Produk 2" class="img2">
             <h2>PKL</h2>
             <a href="P.html"><button><p class="text">kenangan</p></button></a>
         </div>        
