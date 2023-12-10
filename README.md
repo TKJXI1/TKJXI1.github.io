@@ -106,7 +106,7 @@
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
         <div class="product">
-            <img src="reva1.jpg" alt="Produk 2">
+            <img src="reva.jpg" alt="Produk 2">
             <h2>PKL</h2>
             <a href="O.html" class="text"><button><p class="text">kenangan</p></button></a>
         </div>
@@ -120,6 +120,49 @@
             <h2>PKL</h2>
             <a href="P.html"><button><p class="text">kenangan</p></button></a>
         </div>
+                <div class="product">
+            <img src="seni1.jpg" alt="Produk 2" class="img2">
+            <h2>PKL</h2>
+            <a href="P.html"><button><p class="text">kenangan</p></button></a>
+        </div>
+                <div class="product">
+            <img src="tusan.jpg" alt="Produk 2" class="img2">
+            <h2>PKL</h2>
+            <a href="P.html"><button><p class="text">kenangan</p></button></a>
+        </div>
+        <div class="product">
+            <img src="fahri.jpg" alt="Produk 2" class="img2">
+            <h2>PKL</h2>
+            <a href="P.html"><button><p class="text">kenangan</p></button></a>
+        </div>        
+<div class="product">
+            <img src="adi.jpg" alt="Produk 2" class="img2">
+            <h2>PKL</h2>
+            <a href="P.html"><button><p class="text">kenangan</p></button></a>
+        </div>        
+<div class="product">
+            <img src="nayla1.jpg" alt="Produk 2" class="img2">
+            <h2>PKL</h2>
+            <a href="P.html"><button><p class="text">kenangan</p></button></a>
+        </div>
+
+        <div class="product">
+            <img src="nurman.jpg" alt="Produk 2" class="img2">
+            <h2>PKL</h2>
+            <a href="P.html"><button><p class="text">kenangan</p></button></a>
+        </div>
+                <div class="product">
+            <img src="nita.jpg" alt="Produk 2" class="img2">
+            <h2>PKL</h2>
+            <a href="P.html"><button><p class="text">kenangan</p></button></a>
+        </div>       
+        <div class="product">
+            <img src="caca.jpg" alt="Produk 2" class="img2">
+            <h2>PKL</h2>
+            <a href="P.html"><button><p class="text">kenangan</p></button></a>
+        </div>
+
+
     </section>
 
     <!--about section start-->
