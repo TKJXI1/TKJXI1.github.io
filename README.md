@@ -488,17 +488,17 @@
     <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
       <div class="socials">
         <a
-          href="https://instagram.com/goesone11?igshid=OGQ5ZDc2ODk2ZA=="
+          href="https://www.instagram.com/lassjeone?igsh=ODA1NTc5OTg5Nw=="
           id="search"
           ><i data-feather="instagram"></i
         ></a>
         <a
-          href="https://instagram.com/goesone11?igshid=OGQ5ZDc2ODk2ZA=="
+          href="https://www.instagram.com/lassjeone?igsh=ODA1NTc5OTg5Nw=="
           id="search"
           ><i data-feather="facebook"></i
         ></a>
         <a
-          href="https://instagram.com/goesone11?igshid=OGQ5ZDc2ODk2ZA=="
+          href="https://www.instagram.com/lassjeone?igsh=ODA1NTc5OTg5Nw=="
           id="search"
           ><i data-feather="twitter"></i
         ></a>
