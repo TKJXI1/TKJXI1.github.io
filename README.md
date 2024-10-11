@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="x-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>XI TKJ 1</title>
+    <title>XII TKJ 1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +22,7 @@
   </head>
   <body>
     <nav class="navbar">
-      <a href="#" class="navbar-logo">XI T<span>KJ 1.</span></a>
+      <a href="#" class="navbar-logo">XII T<span>KJ 1.</span></a>
 
       <div class="navbar-nav">
         <a href="#Home">Home</a>
